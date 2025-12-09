@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<header>
+    Rock Paper Scissors
+    <button class="about"><u>About Game</u></button>
+</header>
+<div class="resultDisplay">
+    <p class="close">✖</p>
+    <div class="popup">
+        <p style="text-align: center;" class="popupResult">Won the Game</p>
+    </div>
+    <div>
+        <button class="reset1" >Restart</button>
+    </div> 
+</div>
+<div class="AboutSection">
+    <div class="aboutPopup">
+        <h2>Rock Paper Scissors</h2><br>
+        <p style="text-align: left;">Rock:✊  Paper:🖐  Scissors:✌</p><br>
+<pre style="text-align:left;font-size:22px;">
+<b>🎯How it works</b>
+Rock ✊  → smashes →  Scissors ✌️
+Scissors ✌️  → cut →  Paper 🖐
+Paper 🖐  → covers →  Rock ✊
+
+<b>🎮 How to Play</b>
+
+1.Click Rock, Paper, or Scissors to make your move.
+2.The computer will choose its move instantly.
+3.The result of the round is shown — Win, Lose, or Draw.
+4.Your score and the computer’s score update after each round.
+5.Default 5 points to Win, You can choose your own win points
+6.A popup will show the final result, with options to restart.
+</pre><br>
+        <p style="font-size:15px;color:grey;">Tap anywhere to continue</p>
+    </div>
+</div>
+<body>
+    <div class="mainContainer">
+    <div class="left">
+        <div class="container">
+            <div class="upperbox">
+                <div class="upper">
+                    <label for=""><u>Your choice</u></label>
+                    <label for=""><u>Computer Choice</u></label>
+                </div>
+                <div class="lower">
+                    <b><input class="uppertxt" type="text" value="-" disabled></b>
+                    <input class="lowertxt" type="text" value="-" disabled>
+                </div>
+            </div>
+            <div class="btns">
+                <button class="rock">✊</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <button class="paper">🖐</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <button class="scissors">✌</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </div>
+            <div class="labels">
+                <p>Rock</p>
+                <p>Paper</p>
+                <p>Scissors</p>
+            </div>
+        </div>
+    </div>
+    <div class="right">
+        <div class="container">
+            <div class="points">
+                <label style="font-size:30px;" for="">Points to Win:</label>
+                <input type="number" class="inputPoints" value="5">
+            </div>
+            <div class="score">
+                <input class="your" type="text" value="0" disabled>
+                <input class="comps" type="text" value="0" disabled>
+            </div>
+            <div class="participants">
+                <label class="you">You</label>
+                <label class="computer">Com</label>
+            </div>
+            <div class="result">
+                <button class="display">Start Game</button>
+            </div>
+            <div>
+                <button class="reset">Restart</button>
+            </div>  
+        </div>
+    </div>
+    </div> 
+    
+</body>
+<script src="script.js"></script>
+</html>
