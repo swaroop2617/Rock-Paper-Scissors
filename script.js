@@ -8,7 +8,7 @@ let yourChoice=document.querySelector(".uppertxt");
 let comChoice=document.querySelector(".lowertxt");
 let resultDisplay=document.querySelector(".resultDisplay");
 let popDisplay=document.querySelector(".popupResult");
-let body=document.querySelector("body");
+let body=document.querySelector(".mainContainer");
 let close=document.querySelector(".close");
 let about=document.querySelector(".AboutSection");
 let aboutButton=document.querySelector(".about");
@@ -214,3 +214,4 @@ document.addEventListener("click", (e) => {
     about.classList.add("closeAbout");      // if you use zoomOut
     body.style.filter = "blur(0px)";
 });
+
