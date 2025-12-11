@@ -8,7 +8,7 @@ let yourChoice=document.querySelector(".uppertxt");
 let comChoice=document.querySelector(".lowertxt");
 let resultDisplay=document.querySelector(".resultDisplay");
 let popDisplay=document.querySelector(".popupResult");
-let body=document.querySelector(".container");
+let body=document.querySelector("body");
 let close=document.querySelector(".close");
 let about=document.querySelector(".AboutSection");
 let aboutButton=document.querySelector(".about");
@@ -221,6 +221,7 @@ document.addEventListener("click", (e) => {
 
 
    
+
 
 
 
