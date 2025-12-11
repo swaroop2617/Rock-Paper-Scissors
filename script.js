@@ -214,16 +214,3 @@ document.addEventListener("click", (e) => {
     about.classList.add("closeAbout");      // if you use zoomOut
     body.style.filter = "blur(0px)";
 });
-
-
-
-
-
-
-   
-
-
-
-
-
-
